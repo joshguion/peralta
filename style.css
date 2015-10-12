@@ -192,6 +192,9 @@ body {
     border-left:17px solid #B3292E;
     border-bottom:26.5px solid transparent;
 }
+.red-arrow h2 {
+  animation: pulse 5s infinite;
+}
 
 @keyframes pulse {
   0% {
