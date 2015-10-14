@@ -1,0 +1,131 @@
+@media (max-width:750px) {
+.nav-top {
+  width: 100%;
+}
+  .nav-top li {
+    display: inline-block;
+    width: 41%;
+    margin-top: 5px;
+}
+
+
+
+
+
+@media (max-width:415px) {
+  body {
+    background: url(assets/bg.jpg);
+    background-size: cover;
+    background-position-y: 10%;
+    background-position-x: 15%;
+    background-repeat: no-repeat;
+  }
+
+  .wrapper {
+    width: 70%;
+  }
+  .vanish {
+    display: none;
+  }
+  .nav-top {
+    width:100%;
+    margin-bottom: none;
+  }
+
+  .social-container {
+    margin-top:50%;
+  }
+
+  .nav-top li {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.media-links img {
+    display: inline-block;
+    margin-left: 0;
+    padding-left: 0;
+    position: relative;
+    left: 85%;
+    top: 550%;
+  }
+  .media-links ul {
+    padding-left: 19px;
+  }
+  .peralta-logo {
+    position: relative;
+    right: 23.5%;
+    top: 1%;
+    max-width: 70%;
+    margin-bottom: 10%;
+  }
+
+  .bio section {
+    display: block;
+    width: 130%;
+    position: relative;
+    right: 17%;
+    text-align: center;
+  }
+
+  #hawk-bio p, #mullin-bio p, #barbee-bio p {
+    font-size: 1em;
+    padding: 0;
+  }
+
+  .sk8boards {
+    width: 10s0%;
+    position: relative;
+    right: 14.5%;
+    display:inline-block;
+    margin-top: 90%;
+    margin-left: 15%;
+    border-radius: 20px;
+}
+.sk8boards ul {
+    width:100%;
+    margin-left: 10%;
+}
+.sk8boards li {
+  width: 100%;
+}
+.headshots-left section {
+  width: 100%;
+}
+.headshots-middle section {
+  width: 100%;
+}
+.headshots-bottom {
+  width: 100%;
+}
+.headshots-left {
+  position: absolute;
+  width: 250%;
+  margin-top: 5%;
+  margin-left: -6%;
+}
+.headshots-middle {
+  position: relative;
+  width: 375%;
+  right: 135%;
+  padding-top:95%;
+}
+.headshots-bottom {
+  position: relative;
+  width: 400%;
+  right: 13%;
+  top: 25%;
+  padding-top: 75%;
+}
+footer {
+  margin-top: 30%;
+  margin-bottom: 15%;
+  width: 100%;
+}
+footer section {
+  display: block;
+  width: 90%;
+}
+.footer-media h2 {
+  padding-top: 5%;
+}

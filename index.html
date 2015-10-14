@@ -3,17 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Powell</title>
-    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="normalize.css" media="screen" title="no title" charset="utf-8">
+
+    <link rel="stylesheet" href="test.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="responsive.css" media="screen" title="no title" charset="utf-8">
+    link
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700|Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="normalize.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div class="red-arrow">
+    <div class="red-arrow vanish">
       <h2>SKATEBOARDERS</h2>
     </div>
     <div class="wrapper"> <!--Start wrapper for whole page-->
-      <div class="media-dots">
+      <div class="media-dots vanish">
         <ul>
           <li><img src="assets/circle.png" alt="" /></li>
           <li><img src="assets/circle.png" alt="" /></li>
@@ -24,7 +27,7 @@
       </div>
         <div class="social-container">
           <section class="media-links">
-            <p>Subscribe &#8226;</p>
+            <p class="vanish">Subscribe &#8226;</p>
             <ul>
               <li><a href="#"><img id="fb-logo"src="assets/fb-logo.png" alt="" /></a></li>
               <li><a href="#"><img id="rss-logo"src="assets/rss.png" alt="" /></a></li>
@@ -43,12 +46,12 @@
         </div>
 
         <div class="top-banner">
-          <img class="banner-img"src="assets/top-image2.png" alt="" />
-          <img class="grid" src="assets/grid.png" alt="picture of peralta logo" />
+          <img class="banner-img vanish"src="assets/top-image2.png" alt="" />
+          <img class="grid vanish" src="assets/grid.png" alt="picture of peralta logo" />
           <img class="peralta-logo"src="assets/peralta-logo.png" alt="" />
         </div>
 
-        <section id='dots'>
+        <section id='dots'class ="vanish">
           <ul>
             <li><a href="#"><img src="assets/circle.png" alt="" /></a></li>
             <li><a href="#"><img src="assets/circle.png" alt="" /></a></li>
@@ -77,29 +80,31 @@
           </section>
         </div>
 
-        <div class="headshots-left">
-          <section>
-            <img id="mountain-pic"src="assets/mountain2.png" alt="picture of Lance Mountain" />
-            <h2>LANCE MOUNTAIN</h2>
-          </section>
-        </div>
-        <div class="headshots-middle">
-          <section>
-            <img class="mullin-pic"src="assets/mullin.png" alt="picture of Rodney Mullen" />
-            <h2>RODNEY MULLIN</h2>
-          </section>
-        </div>
-        <div class="headshots-bottom">
-          <section>
-            <img src="assets/steve2.png" alt="picture of steve" />
-            <h2>STEVE CABELLERO</h2>
-          </section>
-        </div>
-        <div class='headshots-right'>
-          <section>
-            <img src="assets/guerrero2.png" alt="" />
-            <h2>TOMMY GUERRERO</h2>
-          </section>
+        <div class="headshots-container">
+          <div class="headshots-left">
+            <section>
+              <img id="mountain-pic"src="assets/mountain2.png" alt="picture of Lance Mountain" />
+              <h2 class="vanish">LANCE MOUNTAIN</h2>
+            </section>
+          </div>
+          <div class="headshots-middle">
+            <section>
+              <img class="mullin-pic"src="assets/mullin.png" alt="picture of Rodney Mullen" />
+              <h2 class="vanish">RODNEY MULLIN</h2>
+            </section>
+          </div>
+          <div class="headshots-bottom">
+            <section>
+              <img src="assets/steve2.png" alt="picture of steve" />
+              <h2 class="vanish">STEVE CABELLERO</h2>
+            </section>
+          </div>
+          <div class='headshots-right'>
+            <section>
+              <img src="assets/guerrero2.png" class="vanish" alt="" />
+              <h2 class="vanish">TOMMY GUERRERO</h2>
+            </section>
+          </div>
         </div>
 
         <div class="sk8boards">
@@ -111,20 +116,20 @@
             <li><img src="assets/sk8-7.png" alt="" /></li>
             <li><img src="assets/sk8-8.png" alt="" /></li>
             <li><img src="assets/sk8-9.png" alt="" /></li>
-            <li><img src="assets/sk8-10.png" alt="" /></li>
-            <li><img src="assets/sk8-2.png" alt="" /></li>
-            <li><img src="assets/sk8-1.png" alt="" /></li>
+            <li><img src="assets/sk8-10.png"class="vanish" alt="" /></li>
+            <li><img src="assets/sk8-2.png"class="vanish" alt="" /></li>
+            <li><img src="assets/sk8-1.png"class="vanish" alt="" /></li>
           </ul>
         </div>
         <footer>
           <section class="footer-media">
             <h2>Contact Us For More Information</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="vanish">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul>
-              <li><a href="#"></a><img src="assets/fb-dark.png" alt="" /></li>
-              <li><a href="#"></a><img src="assets/rss-dark.png" alt="" /></li>
-              <li><a href="#"></a><img src="assets/twitter-dark.png" alt="" /></li>
-              <li><a href="#"></a><img src="assets/youtube-dark.png" alt="" /></li>
+              <li><a href="#"><img src="assets/fb-dark.png" alt="" /></a></li>
+              <li><a href="#"><img src="assets/rss-dark.png" alt="" /></a></li>
+              <li><a href="#"><img src="assets/twitter-dark.png" alt="" /></a></li>
+              <li><a href="#"><img src="assets/youtube-dark.png" alt="" /></a></li>
             </ul>
           </section>
           <section class="info-box">
